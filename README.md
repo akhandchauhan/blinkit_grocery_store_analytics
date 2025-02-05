@@ -11,8 +11,6 @@ This project provides an in-depth analysis of grocery sales data from **Blinkit*
 ### Requirements
 - **MySQL** or another relational database management system (RDBMS)
 - SQL Workbench or similar query tool
-- Python (Optional, for visualizations and animations)
-- Power BI or Excel for interactive reports (Optional)
 
 ---
 
@@ -34,8 +32,9 @@ Before starting the analysis, we ensured there were no missing values in the `To
 Basic descriptive statistics for various columns including `Outlet_Est_Year`, `Item_Visibility`, `Item_Weight`, and `Total_Sales` were calculated.
 
 **Output:**
+![descriptive_stat1](https://github.com/user-attachments/assets/b64556cf-678b-43a9-a787-51000b0bb9ed)
+![descriptive_stat2](https://github.com/user-attachments/assets/c70f666d-6157-41e1-ac08-22a657c7da5b)
 
-![Descriptive Statistics](path/to/your/image1.png)
 
 ---
 
