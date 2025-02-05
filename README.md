@@ -138,17 +138,52 @@ This query calculates the average rating of items, grouped by fat content.
 
 ## Data Analysis Insights
 
-1. **Sales Patterns:**
-   - The sales are heavily driven by certain `Item_Fat_Content` and `Item_Type` categories, with "Regular" fat content products seeing higher sales.
+# Data Cleaning and Analysis Report
 
-2. **Top Performing Outlets:**
-   - Outlets established after 2005 tend to have the highest total sales, possibly due to newer or more optimized business strategies.
+## 1. Data Cleaning
+- **Column Names:** Some column names had spaces, which were replaced with underscores for easier querying.
+- **Item Weight:** Missing values were found in the "Item Weight" column (1,463 missing out of 8,523 records).
+- **Standardization of Item Fat Content:** 
+  - 'LF' and 'low fat' → 'Low Fat'
+  - 'reg' → 'Regular'
 
-3. **Item Visibility:**
-   - Outlets with higher or lower than average item visibility need targeted adjustments to improve product placement.
+## 2. Null & Duplicate Check
+- **Missing Values:** No missing values in key columns except "Item Weight".
+- **Duplicates:** Duplicates in "Item Identifier" indicate that the same item was sold multiple times.
 
-4. **Avg Rating by Fat Content:**
-   - The ratings are generally higher for "Low Fat" items compared to "Regular" items, indicating a potential preference for healthier options.
+## 3. Descriptive Statistics
+- **Outlets:** Established between 1985 (oldest) and 2022 (newest).
+  
+### Sales Insights:
+- **Total Sales:** Over $50 million.
+- **Highest Single Sale:** Around $13,000.
+- **Average Sales per Item:** ~$1,000.
+
+### Visibility:
+- Some items had very low visibility, indicating potential under-promotion.
+
+## 4. Key Insights from SQL Queries
+
+### Item Sales & Fat Content:
+- Regular fat content products contribute more to total sales.
+- Average ratings are slightly higher for Low Fat products.
+
+### Outlet Performance:
+- **Top 3 Outlets** (by total sales) were established after 2005 and have the highest revenue.
+- **Sales Distribution by Outlet Size:**
+  - Medium-sized outlets dominate sales (~45%).
+  - Small outlets follow (~35%).
+- **Tier 3 locations** have the highest total sales.
+
+### Item Popularity:
+- Frozen Foods, Dairy, and Soft Drinks are among the most sold categories.
+- Top-selling items vary by outlet type, meaning customer preferences shift based on store type.
+
+### Rolling Sales Trends:
+- A rolling 3-year sales average shows increasing trends over time.
+
+### Unusual Item Visibility:
+- Some outlets have significantly higher or lower item visibility, which could indicate different marketing strategies or stock placement issues.
 
 ---
 
