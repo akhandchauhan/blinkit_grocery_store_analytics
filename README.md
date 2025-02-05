@@ -17,6 +17,7 @@ This project provides an in-depth analysis of grocery sales data from **Blinkit*
 ## Analysis Queries
 
 The following SQL queries were executed to gain insights into the sales data.
+![describe](https://github.com/user-attachments/assets/917b8b49-e0e3-418f-b976-37e1cde16e1e)
 
 ### 1. **Handling Missing Values in Total Sales**
 
@@ -24,6 +25,9 @@ Before starting the analysis, we ensured there were no missing values in the `To
 
 **Output:**  
 *No missing values were found.*
+![null](https://github.com/user-attachments/assets/347c6288-1e8d-467d-9c96-68028c35bb50)
+
+![dup_cnt](https://github.com/user-attachments/assets/db0012eb-0fc9-4304-86a8-ca254a5d13d8)
 
 ---
 
@@ -104,7 +108,7 @@ Identifying the top-selling items within each outlet type can help with inventor
 
 **Output:**
 
-![Top Items Sold per Outlet Type](path/to/your/image8.png)
+![TOP 10](https://github.com/user-attachments/assets/ef7de699-7641-402f-b06e-ef0dcc97e790)
 
 ---
 
@@ -128,23 +132,7 @@ This query calculates the average rating of items, grouped by fat content.
 
 ---
 
-## Data Visualizations
 
-For the visual analysis, tools such as **Power BI**, **Excel**, and **Python (matplotlib / seaborn)** were used to generate interactive and dynamic reports. The following visualizations were created:
-
-- **Sales Trend Over Time**
-- **Heatmaps for Visibility and Sales**
-- **Bar Graphs for Item Type and Fat Content Sales**
-
-### Example Visualizations
-
-1. **Sales Trend Over Time**  
-   Shows how total sales evolve over the years by Outlet Establishment Year.  
-   ![Sales Trend](path/to/your/sales_trend.gif)
-
-2. **Sales by Item Type**  
-   A bar chart showcasing sales by item type.  
-   ![Item Type Sales](path/to/your/item_type_sales.png)
 
 ---
 
@@ -164,24 +152,8 @@ For the visual analysis, tools such as **Power BI**, **Excel**, and **Python (ma
 
 ---
 
-## Future Enhancements
-
-- **Prediction Modeling:** Using machine learning to predict total sales based on historical data.
-- **Improved Item Categorization:** Further segmentation of items into more granular categories to detect niche patterns.
-
----
-
 ## Conclusion
 
 This analysis provides a comprehensive understanding of grocery sales patterns, identifying key factors like item type, outlet size, and item visibility. By leveraging these insights, Blinkit can make informed decisions to optimize inventory, marketing strategies, and sales forecasting.
 
 ---
-
-**Note:**  
-Replace the `path/to/your/imageX.png` with actual paths to the images you generate from your queries or visualizations. You can use tools like Power BI, Python (matplotlib, seaborn), or Excel for generating visual outputs and animations.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
