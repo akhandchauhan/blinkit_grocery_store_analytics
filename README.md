@@ -17,7 +17,10 @@ This project provides an in-depth analysis of grocery sales data from **Blinkit*
 ## Analysis Queries
 
 The following SQL queries were executed to gain insights into the sales data.
+
+
 ![describe](https://github.com/user-attachments/assets/917b8b49-e0e3-418f-b976-37e1cde16e1e)
+
 
 ### 1. **Handling Missing Values in Total Sales**
 
@@ -48,7 +51,8 @@ This query aggregates total sales by `Item_Fat_Content`, allowing us to understa
 
 **Output:**
 
-![Sales by Fat Content](path/to/your/image2.png)
+![image](https://github.com/user-attachments/assets/e8f324bf-5956-46df-9dd0-043bb936585e)
+
 
 ---
 
@@ -58,7 +62,8 @@ Aggregating total sales by `Item_Type` helps us understand which product categor
 
 **Output:**
 
-![Sales by Item Type](path/to/your/image3.png)
+![image](https://github.com/user-attachments/assets/bd63707f-387a-4f45-a23c-bc1a4f2f490a)
+
 
 ---
 
@@ -68,7 +73,8 @@ Using a `DENSE_RANK()` window function, this query identifies the top three outl
 
 **Output:**
 
-![Top 3 Outlets](path/to/your/image4.png)
+![image](https://github.com/user-attachments/assets/4c060fcf-374c-4d92-8baa-9f2f50912a36)
+
 
 ---
 
@@ -78,7 +84,8 @@ A rolling average was calculated for total sales, grouped by the year of outlet 
 
 **Output:**
 
-![Rolling Average of Sales](path/to/your/image5.gif)
+![image](https://github.com/user-attachments/assets/c80d867c-c558-4d06-81d8-02442afbd9b3)
+
 
 ---
 
@@ -88,7 +95,8 @@ This query calculates the percentage of total sales by `Outlet_Size`, allowing u
 
 **Output:**
 
-![Percentage of Sales by Outlet Size](path/to/your/image6.png)
+![image](https://github.com/user-attachments/assets/3334416d-a792-402b-a5cd-26bb81c02b33)
+
 
 ---
 
@@ -98,7 +106,8 @@ The total sales aggregated by the outlet's location type provide insight into th
 
 **Output:**
 
-![Sales by Location Type](path/to/your/image7.png)
+![image](https://github.com/user-attachments/assets/81b02b0f-19b5-4df6-b533-c1138e2672be)
+
 
 ---
 
@@ -108,7 +117,8 @@ Identifying the top-selling items within each outlet type can help with inventor
 
 **Output:**
 
-![TOP 10](https://github.com/user-attachments/assets/ef7de699-7641-402f-b06e-ef0dcc97e790)
+![image](https://github.com/user-attachments/assets/271698a3-008c-420e-92ef-1b898e88854c)
+
 
 ---
 
@@ -118,7 +128,8 @@ By detecting unusually high or low item visibility, we can identify potential is
 
 **Output:**
 
-![Item Visibility Outliers](path/to/your/image9.png)
+![image](https://github.com/user-attachments/assets/38280cde-18b3-4758-a9a7-c2c3caeff7c7)
+
 
 ---
 
@@ -128,7 +139,9 @@ This query calculates the average rating of items, grouped by fat content.
 
 **Output:**
 
-![Avg Rating by Fat Content](path/to/your/image10.png)
+![image](https://github.com/user-attachments/assets/a6a1d68e-9258-43fb-9660-caf96a7dd897)
+
+
 
 ---
 
