@@ -4,6 +4,10 @@
 
 This project provides an in-depth analysis of grocery sales data from **Blinkit**. The analysis covers various aspects of the data, including total sales, sales by item type, fat content, outlet types, visibility, and more. The goal is to understand sales patterns, detect anomalies, and provide actionable insights for business improvement.
 
+## Data
+
+> **Note:** The raw dataset (`BlinkIT Grocery Data.csv`) has been removed from version control to keep this repository lightweight (see `.gitignore`). Add your original dataset source link here (e.g. a Kaggle dataset URL) so others can reproduce this analysis.
+
 ---
 
 ## Setup
